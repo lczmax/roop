@@ -1,0 +1,22 @@
+Python运行.py【选项】
+
+—h，——帮助显示此帮助消息并退出
+-s SOURCE_PATH，-source SOURCE_Path选择源映像
+-t TARGET_PATH，-target TARGET_Path选择目标图像或视频
+-o OUTPUT_PATH，-output OUTPUT_Path选择输出文件或目录
+-帧处理器FRAME_PROCESSOR[FRAME_PROCESSER...]帧处理器（选择:面板交换器，面板增强器，...）
+--保持帧速率保持目标帧速率
+--保持框架 保持临时框架
+--跳过音频跳过目标音频
+- 多面孔处理每张脸
+--参考面位置 参考面位置
+--参考框架编号 参考框架编号
+--相似面部距离 SIMILAR_FACE_DISTANCE用于识别的面部距离
+——帧格式用于帧提取的图像格式
+——时帧质量【0—100】用于帧提取的图像质量
+———输出视频编码器{libx264,libx265,libvpx-vp9,h264_nvenc,hevc_nvenc}用于输出视频的编码器
+--输出视频质量 [0-100]用于输出视频的质量
+最大内存最大内存数量（GB）
+-执行提供程序{cpu}[{cpu}...]可用的执行提供程序（选择:cpu，...）
+--执行线程 EXECUTION_THREADS 执行线程数
+-v，-version显示程序的版本号和退出
